@@ -1,0 +1,48 @@
+#menu-wrapper
+{
+    background:  #800000;
+      border: 2px solid white;
+}
+
+#menu {
+    overflow: hidden;
+    height: 100px;
+}
+
+#menu  li {
+    grid-template-columns: 100px 100px 100px 100px;
+    margin: 0;
+    padding: 25px 0px 0px 0px;
+    list-style: none;
+    line-height: normal;
+    text-align: center;
+}
+
+#menu a {
+    display: block;
+    letter-spacing: 2px;
+    padding: 20px 40px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.80em;
+    font-weight: 600;
+    border: none;
+    color: #FFF;
+}
+
+#menu a:hover, #menu .current_page_item a {
+    text-decoration: none;
+}
+
+#menu li {
+
+    display: inline-block;
+}
+
+#img_menu {
+  display:inline-block;
+  float:left;
+  width:80px;
+  height:80px;
+}

@@ -1,0 +1,73 @@
+/* Style de la liste */
+
+.musique_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-auto-columns: fit-content(100%);
+  grid-auto-rows: max-content;
+  grid-gap: 15px;
+
+  margin: 25px;
+}
+
+/* Style d'un item de la liste */
+
+.list_item_link {
+  text-decoration: none;
+
+  background-color: var(--white);
+  border-radius: 5%;
+}
+
+a.list_item_link:hover {
+  border-width: medium;
+  border-style: solid;
+  border-color: var(--outline-hover);
+}
+
+.list_item {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  grid-gap: 10px;
+  justify-items: center;
+
+  padding: 15px;
+}
+
+.list_item p {
+  margin: 2px;
+  text-align: center;
+}
+
+.list_item_image {
+  grid-row: 1;
+
+  border-radius: 10%;
+
+  height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.list_item_legend {
+  grid-row: 2;
+}
+
+.list_item_author {
+  color: var(--grey);
+  font-size: 14px;
+  padding-bottom: 4px;
+}
+
+.list_item_title {
+  color: var(--black);
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+
+.list_item_extra {
+  color: var(--darker-grey);
+  font-size: 17px;
+}

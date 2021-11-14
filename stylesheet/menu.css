@@ -1,0 +1,17 @@
+#menu-wrapper
+{
+    background: #00AABB;
+}
+
+#menu {
+    overflow: hidden;
+    height: 100px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 25px 0px 0px 0px;
+    list-style: none;
+    line-height: normal;
+    text-align: center;
+}

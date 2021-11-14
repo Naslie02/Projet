@@ -1,0 +1,33 @@
+.musique_page {
+  margin: 20px;
+}
+
+.musique_page_main {
+  display: grid;
+  grid-template-columns: fit-content(100%) 1fr;
+  align-items: center;
+  grid-gap: 50px;
+
+  padding: 20px;
+  border-radius: 20px;
+
+  background-color: var(--white);
+}
+
+.musique_page_image {
+  border-radius: 5%;
+}
+
+.musique_page_legend > p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.musique_page_author {
+  color: var(--darker-grey);
+  font-size: 23px;
+}
+
+.musique_page_title {
+  font-size: 40px;
+}
